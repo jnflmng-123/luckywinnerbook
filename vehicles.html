@@ -1,0 +1,197 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucky Winner — Five Vehicles</title>
+<style>
+:root{
+  --bg:#08191F; --panel:#0E262E; --line:#C9C2AE; --line-quiet:#5E7379;
+  --gold:#C9A961; --fg:#E6E2D6; --fg-quiet:#93A2A7; --rule:#1C4048;
+  --display:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+}
+:root[data-theme="light"]{
+  --bg:#EFECE2; --panel:#E5E1D3; --line:#1B3238; --line-quiet:#7C8D93;
+  --gold:#8A6E2C; --fg:#12262C; --fg-quiet:#4A5F66; --rule:#CFC9B6;
+}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]){
+  --bg:#EFECE2; --panel:#E5E1D3; --line:#1B3238; --line-quiet:#7C8D93;
+  --gold:#8A6E2C; --fg:#12262C; --fg-quiet:#4A5F66; --rule:#CFC9B6;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--display);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:960px;margin:0 auto;padding:clamp(28px,5vw,64px) clamp(18px,4vw,40px)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);margin:0 0 12px}
+h1{font-weight:400;letter-spacing:.08em;font-size:clamp(26px,4vw,38px);margin:0;text-wrap:balance}
+.lede{color:var(--fg-quiet);max-width:62ch;margin:16px 0 0;font-size:16.5px}
+.plate{margin-top:44px;display:flex;flex-direction:column}
+.veh{border-top:1px solid var(--rule);padding:28px 0;display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,230px);gap:clamp(18px,4vw,44px);align-items:center}
+.veh:last-child{border-bottom:1px solid var(--rule)}
+svg{width:100%;height:auto;display:block;overflow:visible}
+.ln{fill:none;stroke:var(--line);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round;
+  vector-effect:non-scaling-stroke}
+.gl{fill:none;stroke:var(--line-quiet);stroke-width:1.1;vector-effect:non-scaling-stroke}
+.grd{stroke:var(--rule);stroke-width:1;vector-effect:non-scaling-stroke}
+.who{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold);margin:0 0 6px}
+h2{font-weight:400;font-size:19px;letter-spacing:.03em;margin:0 0 8px}
+.spec{margin:0;font-size:13.5px;color:var(--fg-quiet);line-height:1.55}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--line-quiet);margin-top:10px}
+footer{margin-top:40px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--line-quiet);display:flex;justify-content:space-between;
+  gap:16px;flex-wrap:wrap}
+@media(max-width:700px){.veh{grid-template-columns:1fr;gap:14px}}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Lucky Winner &middot; Plate I</p>
+  <h1>Five vehicles, five economies</h1>
+  <p class="lede">Drawn to one scale, one line weight, one baseline. The book does character through machinery: what a person drives, how they bought it, and whether anyone was meant to notice.</p>
+
+  <div class="plate">
+
+    <!-- LEXUS -->
+    <div class="veh">
+      <svg viewBox="0 0 400 150" role="img" aria-label="Side elevation, 2006 Lexus GX 470">
+        <line class="grd" x1="0" y1="128" x2="400" y2="128"/>
+        <path class="ln" d="M38 128 L38 100 L32 96 L32 82 Q34 74 46 72 L104 68 L142 44 L304 42 Q318 44 322 56 L328 78 L330 98 L330 128"/>
+        <line class="ln" x1="152" y1="37" x2="298" y2="37"/>
+        <line class="gl" x1="160" y1="37" x2="160" y2="42"/><line class="gl" x1="226" y1="37" x2="226" y2="42"/><line class="gl" x1="292" y1="37" x2="292" y2="42"/>
+        <path class="gl" d="M34 74 L58 70 L58 78 L36 82 Z"/>
+        <line class="gl" x1="33" y1="86" x2="44" y2="85"/><line class="gl" x1="33" y1="90" x2="44" y2="89"/>
+        <path class="gl" d="M146 50 L196 48 L196 70 L128 72 Z"/>
+        <path class="gl" d="M202 48 L256 48 L256 70 L202 70 Z"/>
+        <path class="gl" d="M262 48 L298 48 L304 62 L262 70 Z"/>
+        <line class="gl" x1="116" y1="74" x2="324" y2="74"/>
+        <line class="gl" x1="200" y1="74" x2="200" y2="118"/><line class="gl" x1="258" y1="74" x2="258" y2="116"/>
+        <line class="gl" x1="184" y1="79" x2="196" y2="79"/><line class="gl" x1="242" y1="79" x2="254" y2="79"/>
+        <rect class="gl" x="126" y="56" width="12" height="8"/>
+        <line class="gl" x1="126" y1="118" x2="266" y2="118"/>
+        <circle class="ln" cx="100" cy="106" r="22"/><circle class="gl" cx="100" cy="106" r="9"/>
+        <circle class="ln" cx="294" cy="106" r="22"/><circle class="gl" cx="294" cy="106" r="9"/>
+        <path class="ln" d="M72 106 A28 28 0 0 1 128 106"/><path class="ln" d="M266 106 A28 28 0 0 1 322 106"/>
+      </svg>
+      <div>
+        <p class="who">Jon</p><h2>The Lexus GX</h2>
+        <p class="spec">Silver-grey. Bought two years old, without a test drive, off the reliability tables &mdash; the model with the fewest recorded faults, in the trim with the fewest gadgets to fail. Body-on-frame, a Land Cruiser underneath, almost nothing on it that can break. A colleague of nine years walked the lot twice hunting his own car and never saw Jon sitting in it.</p>
+        <p class="tag">serious capability, concealed, never once used</p>
+      </div>
+    </div>
+
+    <!-- YOTA -->
+    <div class="veh">
+      <svg viewBox="0 0 400 150" role="img" aria-label="Side elevation, 1990 Toyota pickup with home-built flatdeck">
+        <line class="grd" x1="0" y1="128" x2="400" y2="128"/>
+        <path class="ln" d="M30 128 L30 108 L24 106 L24 96 L34 92 L38 88 L100 84 L106 82 L118 58 L188 56 L194 58 L198 82 L206 86 L206 128"/>
+        <path class="gl" d="M26 96 L36 95 L36 101 L26 102 Z"/>
+        <line class="gl" x1="24" y1="104" x2="34" y2="104"/>
+        <path class="gl" d="M112 62 L156 60 L156 80 L108 82 Z"/>
+        <line class="gl" x1="124" y1="61" x2="122" y2="81"/>
+        <line class="gl" x1="162" y1="84" x2="162" y2="120"/>
+        <line class="gl" x1="168" y1="88" x2="178" y2="88"/>
+        <path class="ln" d="M212 86 L212 50 L218 50 L218 86"/>
+        <line class="ln" x1="202" y1="50" x2="246" y2="50"/>
+        <circle class="ln" cx="222" cy="43" r="5"/><circle class="ln" cx="238" cy="43" r="5"/>
+        <line class="gl" x1="222" y1="48" x2="222" y2="50"/><line class="gl" x1="238" y1="48" x2="238" y2="50"/>
+        <path class="ln" d="M206 88 L380 88 L380 96 L206 96"/>
+        <line class="gl" x1="206" y1="104" x2="376" y2="104"/>
+        <line class="gl" x1="234" y1="96" x2="234" y2="104"/><line class="gl" x1="330" y1="96" x2="330" y2="104"/>
+        <path class="gl" d="M352 104 L352 122 L360 122 L360 104"/>
+        <circle class="ln" cx="96" cy="109" r="19"/><circle class="gl" cx="96" cy="109" r="8"/><circle class="gl" cx="96" cy="109" r="2"/>
+        <circle class="ln" cx="300" cy="109" r="19"/><circle class="gl" cx="300" cy="109" r="8"/><circle class="gl" cx="300" cy="109" r="2"/>
+        <path class="ln" d="M72 109 A24 24 0 0 1 120 109"/>
+      </svg>
+      <div>
+        <p class="who">Jon</p><h2>The Yota</h2>
+        <p class="spec">1990 Toyota pickup, 3VZ-E V6, flat Tremclad grey. The box rusted off and he built a flatdeck. Cab corners cut out, new steel welded in. KC lights on the headache rack. Started weekly, going nowhere.</p>
+        <p class="tag">two years of weekends, then one, mostly alone</p>
+      </div>
+    </div>
+
+    <!-- DUALLY -->
+    <div class="veh">
+      <svg viewBox="0 0 400 150" role="img" aria-label="Side elevation, 2019 Ram 3500 crew cab dually">
+        <line class="grd" x1="0" y1="128" x2="400" y2="128"/>
+        <path class="ln" d="M20 128 L20 100 L14 96 L14 70 L24 62 L98 58 L106 58 L126 38 L234 36 L240 40 L246 62 L386 62 L386 128"/>
+        <path class="gl" d="M16 70 L30 66 L30 74 L16 78 Z"/>
+        <line class="gl" x1="16" y1="82" x2="24" y2="82"/><line class="gl" x1="16" y1="88" x2="24" y2="88"/><line class="gl" x1="16" y1="94" x2="24" y2="94"/>
+        <path class="gl" d="M130 42 L172 40 L172 60 L122 60 Z"/>
+        <path class="gl" d="M178 40 L224 40 L224 60 L178 60 Z"/>
+        <line class="gl" x1="176" y1="62" x2="176" y2="122"/><line class="gl" x1="228" y1="62" x2="228" y2="118"/>
+        <line class="gl" x1="162" y1="67" x2="174" y2="67"/><line class="gl" x1="214" y1="67" x2="226" y2="67"/>
+        <path class="ln" d="M112 56 L112 44 L120 44"/>
+        <rect class="gl" x="106" y="40" width="10" height="14"/>
+        <line class="gl" x1="246" y1="68" x2="386" y2="68"/>
+        <line class="gl" x1="132" y1="120" x2="244" y2="120"/>
+        <path class="ln" d="M250 103 L260 82 L340 82 L350 103"/>
+        <circle class="ln" cx="88" cy="103" r="25"/><circle class="gl" cx="88" cy="103" r="10"/>
+        <circle class="ln" cx="286" cy="103" r="25"/><circle class="ln" cx="312" cy="103" r="25"/>
+        <circle class="gl" cx="286" cy="103" r="10"/>
+        <path class="ln" d="M58 103 A30 30 0 0 1 118 103"/>
+      </svg>
+      <div>
+        <p class="who">Dave</p><h2>The dually</h2>
+        <p class="spec">2019 Dodge, the big diesel, the rear axle wearing four tires instead of two. A hundred and ten thousand dollars of truck with seven years still to run on it &mdash; parked beside a porch last painted when his mother was alive to ask.</p>
+        <p class="tag">announced him long before he did</p>
+      </div>
+    </div>
+
+    <!-- JEEP -->
+    <div class="veh">
+      <svg viewBox="0 0 400 150" role="img" aria-label="Side elevation, black four-door Wrangler, spare on the tailgate">
+        <line class="grd" x1="0" y1="128" x2="400" y2="128"/>
+        <path class="ln" d="M48 96 L48 78 L52 74 L132 74 L138 74 L146 52 L300 52 L304 74 L306 74 L306 112"/>
+        <line class="ln" x1="140" y1="74" x2="146" y2="52"/>
+        <path class="ln" d="M64 106 L72 88 L130 88 L138 106"/>
+        <path class="ln" d="M246 106 L254 88 L310 88 L314 102"/>
+        <path class="gl" d="M34 104 L70 104"/><line class="gl" x1="38" y1="104" x2="38" y2="112"/><line class="gl" x1="64" y1="104" x2="64" y2="112"/>
+        <path class="gl" d="M152 56 L192 56 L192 72 L152 72 Z"/>
+        <path class="gl" d="M200 56 L246 56 L246 72 L200 72 Z"/>
+        <path class="gl" d="M254 56 L296 56 L296 72 L254 72 Z"/>
+        <line class="gl" x1="140" y1="76" x2="306" y2="76"/>
+        <line class="gl" x1="196" y1="76" x2="196" y2="116"/><line class="gl" x1="250" y1="76" x2="250" y2="116"/>
+        <rect class="gl" x="149" y="80" width="4" height="4"/><rect class="gl" x="149" y="92" width="4" height="4"/>
+        <rect class="gl" x="197" y="80" width="4" height="4"/><rect class="gl" x="197" y="92" width="4" height="4"/>
+        <line class="gl" x1="182" y1="82" x2="190" y2="82"/><line class="gl" x1="236" y1="82" x2="244" y2="82"/>
+        <line class="gl" x1="144" y1="118" x2="242" y2="118"/>
+        <circle class="ln" cx="318" cy="88" r="17"/><circle class="gl" cx="318" cy="88" r="7"/>
+        <circle class="ln" cx="102" cy="103" r="25"/><circle class="gl" cx="102" cy="103" r="19"/><circle class="gl" cx="102" cy="103" r="9"/>
+        <circle class="ln" cx="280" cy="103" r="25"/><circle class="gl" cx="280" cy="103" r="19"/><circle class="gl" cx="280" cy="103" r="9"/>
+      </svg>
+      <div>
+        <p class="who">Nora</p><h2>The black Jeep</h2>
+        <p class="spec">Hers. Not the dually &mdash; the one the telegraph mentioned only as the black Jeep, and never once put her behind the wheel of.</p>
+        <p class="tag">her own</p>
+      </div>
+    </div>
+
+    <!-- WORK VAN -->
+    <div class="veh">
+      <svg viewBox="0 0 400 150" role="img" aria-label="Side elevation, high-roof panel work van">
+        <line class="grd" x1="0" y1="128" x2="400" y2="128"/>
+        <path class="ln" d="M36 128 L36 104 L30 102 L30 90 L38 80 L48 74 L64 72 L98 38 L120 32 L348 32 L348 128"/>
+        <line class="gl" x1="68" y1="72" x2="102" y2="40"/>
+        <path class="gl" d="M32 90 L44 86 L44 94 L32 96 Z"/>
+        <path class="gl" d="M110 44 L146 44 L146 72 L108 72 Z"/>
+        <line class="gl" x1="152" y1="34" x2="152" y2="122"/>
+        <line class="gl" x1="240" y1="34" x2="240" y2="122"/>
+        <line class="gl" x1="152" y1="46" x2="300" y2="46"/>
+        <line class="gl" x1="160" y1="84" x2="172" y2="84"/>
+        <line class="gl" x1="112" y1="120" x2="336" y2="120"/>
+        <circle class="ln" cx="96" cy="108" r="20"/><circle class="gl" cx="96" cy="108" r="8"/>
+        <circle class="ln" cx="298" cy="108" r="20"/><circle class="gl" cx="298" cy="108" r="8"/>
+        <path class="ln" d="M72 108 A24 24 0 0 1 120 108"/><path class="ln" d="M274 108 A24 24 0 0 1 322 108"/>
+      </svg>
+      <div>
+        <p class="who">Ray</p><h2>The work van</h2>
+        <p class="spec">Twenty-four now, an electrician with his father's walk.</p>
+        <p class="tag">and never learned</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer><span><a href="index.html" style="color:var(--gold);text-decoration:none">&larr; luckywinnerbook.com</a></span><span>Plate I &middot; Vehicles</span><span>JP Fleming</span></footer>
+</div>
